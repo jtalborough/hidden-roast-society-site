@@ -5,3 +5,8 @@ title = "Hidden Roast Society"
 [params]
   description = "A private coffee club with limited membership. Roasted in small batches, each batch unique."
   author = "Hidden Roast Society"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

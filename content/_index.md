@@ -145,6 +145,16 @@ Hidden Roast Society Est. 2025
 </footer>
 
 <style>
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: 'Georgia', serif;
+  --color-text: #222;
+  --color-background: #fdfdfd;
+  --color-border: #e0e0e0;
+  --color-primary: #1a1a1a;
+  --color-light-gray: #888;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -152,86 +162,82 @@ Hidden Roast Society Est. 2025
 }
 
 body {
-  font-family: 'Georgia', serif;
-  line-height: 1.8;
-  max-width: 800px;
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  max-width: 700px;
   margin: 0 auto;
-  padding: 2rem;
-  background: #f5f5f0;
-  color: #1a1a1a;
+  padding: 4rem 2rem;
 }
 
 h1, h2, h3 {
-  font-family: 'Courier New', monospace;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-family: var(--font-serif);
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.8rem;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.4rem;
   font-weight: normal;
-  margin-bottom: 3rem;
-  color: #666;
+  text-align: center;
+  color: var(--color-light-gray);
+  margin-bottom: 4rem;
 }
 
 h3 {
   font-size: 1.2rem;
-  margin-top: 2rem;
-  border-bottom: 2px solid #333;
-  padding-bottom: 0.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #ccc;
-  margin: 3rem 0;
+  border-top: 1px solid var(--color-border);
+  margin: 4rem 0;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-primary);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+a:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background);
 }
 
 /* Membership Tiers */
 .membership-tiers {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .tier {
-  background: #fff;
-  border: 2px solid #333;
+  border: 1px solid var(--color-border);
   padding: 2rem;
-  border-radius: 4px;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.tier:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.tier.featured {
-  background: #1a1a1a;
-  color: #fff;
-  border-color: #1a1a1a;
-}
-
-.tier.featured h3 {
-  color: #fff;
-  border-bottom-color: #666;
+  border-radius: 8px;
 }
 
 .tier h3 {
   margin-top: 0;
   font-size: 1.3rem;
-  border-bottom: 2px solid #333;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
 }
 
 .tier ul {
@@ -241,11 +247,7 @@ hr {
 
 .tier li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
-}
-
-.tier.featured li {
-  border-bottom-color: #444;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .tier li:last-child {
@@ -254,67 +256,55 @@ hr {
 
 /* Waitlist Form */
 .waitlist-form {
-  max-width: 400px;
-  margin: 2rem auto;
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
+  margin: 2rem 0;
 }
 
 .waitlist-form input[type="email"] {
-  padding: 1rem;
+  flex-grow: 1;
+  padding: 0.8rem 1rem;
   font-size: 1rem;
-  border: 2px solid #333;
-  background: #fff;
-  font-family: monospace;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-family: var(--font-sans);
 }
 
 .waitlist-form button {
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.5rem;
   font-size: 1rem;
-  background: #1a1a1a;
-  color: #fff;
+  background-color: var(--color-primary);
+  color: var(--color-background);
   border: none;
+  border-radius: 4px;
   cursor: pointer;
-  font-family: monospace;
-  font-weight: bold;
-  transition: background 0.2s;
+  transition: opacity 0.2s;
 }
 
 .waitlist-form button:hover {
-  background: #333;
+  opacity: 0.8;
 }
 
 /* Footer */
 .site-footer {
-  margin-top: 4rem;
+  margin-top: 5rem;
   padding-top: 2rem;
-  border-top: 2px solid #333;
+  border-top: 1px solid var(--color-border);
   text-align: center;
   font-size: 0.9rem;
-  color: #666;
-}
-
-.site-footer a {
-  color: #1a1a1a;
-  text-decoration: none;
-  border-bottom: 1px solid #1a1a1a;
-}
-
-.site-footer a:hover {
-  border-bottom: 2px solid #1a1a1a;
+  color: var(--color-light-gray);
 }
 
 /* Responsive */
 @media (max-width: 600px) {
   body {
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
-  
+
   h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
-  
+
   .membership-tiers {
     grid-template-columns: 1fr;
   }

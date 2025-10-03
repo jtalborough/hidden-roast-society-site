@@ -1,5 +1,5 @@
 # Stage 1: Build the Hugo site
-FROM gohugoio/hugo:extended AS builder
+FROM hugomods/hugo:ext-alpine AS builder
 WORKDIR /src
 COPY . .
 RUN hugo

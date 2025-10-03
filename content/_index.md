@@ -8,7 +8,7 @@ draft: false
 
 ## A Private Coffee Club with Limited Membership
 
-Roasted in small batches. Each batch unique. Delivered to your door.
+**Green Pound Roast:** Each bag is roasted from a true 1 lb green lot. You receive the honest yield—typically 13.4–13.8 oz. More coffee. More character.
 
 We're not trying to change the world. Just make better mornings for a few people.
 
@@ -35,27 +35,28 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 <div class="tier">
 
 ### Society Member
-**$75 / month**
+**$50 / month** — Founder's Rate (locked for life)
 
-- 2 × 12oz bags monthly
+- 2 × Green Pound Roast bags monthly
 - Shipping included
 - Tasting notes & roaster's diary
-- Add-on bag: $25
+- Add-on bag: $22
+
+<small>Public rate after Founders: $70/mo</small>
 
 </div>
 
 <div class="tier featured">
 
 ### Inner Circle
-**$110 / month**
+**$75 / month** — Founder's Rate (locked for life)
 
-- 3 × 12oz bags monthly
+- 3 × Green Pound Roast bags monthly
 - Shipping included
-- Quarterly surprise (valued at $30)
-- First access to micro-lots
-- Direct roaster communication
-- Custom roast requests
+- Quarterly 2–4 oz sample
 - Add-on bag: $22
+
+<small>Public rate after Founders: $95/mo</small>
 
 </div>
 
@@ -65,7 +66,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 ## The Rules
 
-- Membership is capped at 50 members
+- Founder's Rate capped at 40 members total
 - New members only when someone leaves
 - Shipping is always included
 - Coffee is always shipped fresh

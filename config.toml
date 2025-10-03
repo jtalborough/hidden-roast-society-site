@@ -1,0 +1,8 @@
+baseURL = "https://hiddenroast.club"
+languageCode = "en-us"
+title = "Hidden Roast Society"
+theme = "minimal"
+
+[params]
+  description = "A private coffee club with limited membership. Roasted in small batches, each batch unique."
+  author = "Hidden Roast Society"

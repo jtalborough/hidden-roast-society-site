@@ -1,5 +1,5 @@
 # Stage 1: Build the Hugo site
-FROM peaceiris/hugo:0.128.2-extended AS builder
+FROM gohugoio/hugo:0.128.2-extended AS builder
 WORKDIR /src
 COPY . .
 RUN hugo

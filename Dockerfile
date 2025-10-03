@@ -1,5 +1,5 @@
 # Stage 1: Build the Hugo site
-FROM hugomods/hugo:0.128.2-extended AS builder
+FROM ghcr.io/hugomods/hugo:0.128.2-extended AS builder
 WORKDIR /src
 COPY . .
 RUN hugo

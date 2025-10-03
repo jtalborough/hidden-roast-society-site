@@ -23,6 +23,15 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.128.2'
+          extended: true
+
+      - name: Build Hugo site
+        run: hugo
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:

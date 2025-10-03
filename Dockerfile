@@ -1,13 +1,10 @@
-# Stage 1: Build the Hugo site
-FROM gohugoio/hugo:0.128.2 AS builder
-WORKDIR /src
-COPY . .
-RUN hugo
-
-# Stage 2: Serve the built site with Nginx
+# Serve the pre-built site with Nginx
 FROM nginx:alpine
-# Copy the built site from the 'builder' stage
-COPY --from=builder /src/public /usr/share/nginx/html
+
+# The GitHub Action will copy the built site into the 'public' directory.
+# This Dockerfile just needs to copy it into the Nginx server directory.
+COPY public /usr/share/nginx/html
+
 # Copy your custom nginx config
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 

@@ -6,9 +6,7 @@ draft: false
 
 # Hidden Roast Society
 
-## A Private Coffee Club with Limited Membership
-
-**Green Pound Roast:** Each bag is roasted from a true 1 lb green lot. You receive the honest yield—typically 13.4–13.8 oz. More coffee. More character.
+## Small Batch Coffee. Roasted for Members Only.
 
 We're not trying to change the world. Just make better mornings for a few people.
 
@@ -16,7 +14,7 @@ We're not trying to change the world. Just make better mornings for a few people
 
 ### What This Is
 
-A private coffee club with limited membership. Roasted in small batches, each batch unique. Delivered to your door.
+A coffee club for people who care about what's in their cup. Every roast is small batch. Every bag is different. Every member gets coffee roasted fresh and shipped the next day.
 
 ### What This Isn't
 
@@ -37,7 +35,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 ### Society Member
 **$50 / month** — Founder's Rate (locked for life)
 
-- 2 × Green Pound Roast bags monthly
+- 2 bags monthly (~13.5 oz each)
 - Shipping included
 - Tasting notes & roaster's diary
 - Add-on bag: $22
@@ -51,7 +49,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 ### Inner Circle
 **$75 / month** — Founder's Rate (locked for life)
 
-- 3 × Green Pound Roast bags monthly
+- 3 bags monthly (~13.5 oz each)
 - Shipping included
 - Quarterly 2–4 oz sample
 - Add-on bag: $22
@@ -71,32 +69,33 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 - Shipping is always included
 - Coffee is always shipped fresh
 - Roasts happen once a month
+- Each bag starts as 1 lb green coffee—you get the honest roasted weight (typically 13 – 14.5 oz)
 
 ---
 
 ## Our Promise
 
 - All bags ship immediately following the roast
-- Forever small batch
-- Constantly evolving
-- Each bag numbered and carefully crafted
-- Each member known by name
+- Forever small batch—we'll never scale beyond what we can roast with care
+- Constantly evolving—new origins, new roast profiles, always experimenting
+- Each bag numbered and dated
+- Each member known by name, not as a transaction
 
 ---
 
 ## What We Believe
 
 **We believe:**
-- Coffee is awesome
-- Freshness is paramount
-- Belonging to something matters
-- Quality and value go together
+- Coffee should be roasted this week, not last month
+- Small batches mean we can actually care about each one
+- The ritual matters as much as the caffeine
+- Good coffee and fair prices aren't mutually exclusive
 
 **We don't believe:**
-- In racing to the bottom and squeezing profits
-- Everyone needs to love us
-- Growth at all costs
-- Coffee is just caffeine
+- Bigger is better
+- In scaling up and watering down quality
+- Coffee should taste the same every single time (where's the fun in that?)
+- You should settle for stale beans because they're "convenient"
 
 ---
 

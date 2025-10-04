@@ -126,7 +126,7 @@ No spam. No marketing. Just a simple notice.
 <form action="/subscription/form" method="post" class="waitlist-form">
   <input type="email" name="email" placeholder="your@email.com" required>
   <input type="hidden" name="nonce" value="">
-  <input type="hidden" name="l" value="YOUR_LIST_UUID">
+  <input type="hidden" name="l" value="5cd3d6d1-65ea-4c27-be75-fed09ae8a312">
   <button type="submit">Request Invitation</button>
 </form>
 
@@ -139,7 +139,7 @@ Email: membership@hiddenroast.club
 Instagram: @hiddenroastsociety
 
 **Legal**  
-LLC registered in West Virginia  
+Lost River Valley, WV  
 Hidden Roast Society Est. 2025
 
 </footer>

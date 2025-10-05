@@ -42,7 +42,10 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <small>Public rate after Founders: $70/mo</small>
 
-<button class="join-button" onclick="joinSocietyMember()">Join Now</button>
+<button class="join-button" onclick="joinSocietyMember()" id="join-society">Join Now</button>
+<div class="membership-full" id="full-society" style="display:none;">
+  <p>Membership Full - <a href="#waitlist">Join Waitlist</a></p>
+</div>
 
 </div>
 
@@ -58,7 +61,10 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <small>Public rate after Founders: $95/mo</small>
 
-<button class="join-button" onclick="joinInnerCircle()">Join Now</button>
+<button class="join-button" onclick="joinInnerCircle()" id="join-inner">Join Now</button>
+<div class="membership-full" id="full-inner" style="display:none;">
+  <p>Membership Full - <a href="#waitlist">Join Waitlist</a></p>
+</div>
 
 </div>
 
@@ -126,6 +132,7 @@ A: [Manage your subscription here](/manage.html) - update payment, view invoices
 ---
 
 ## Join the Waitlist
+<a id="waitlist"></a>
 
 Join the list. We'll let you know when a seat opens.  
 No spam. No marketing. Just a simple notice.
@@ -335,6 +342,25 @@ a:hover {
 .join-button:hover {
   opacity: 0.8;
 }
+
+.membership-full {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.membership-full p {
+  margin: 0;
+  color: var(--color-light-gray);
+}
+
+.membership-full a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-primary);
+}
 </style>
 
 <script>
@@ -342,6 +368,34 @@ const PRICE_IDS = {
   society_member: 'price_1SEyop7MFwf9QPLIP12nYIVO',
   inner_circle: 'price_1SEyoP7MFwf9QPLIuj444yRu'
 };
+
+// Check member status on page load
+async function checkMemberStatus() {
+  try {
+    const response = await fetch('/stripe/member-status');
+    const data = await response.json();
+    
+    if (!data.acceptingMembers) {
+      // Hide join buttons, show full message
+      document.getElementById('join-society').style.display = 'none';
+      document.getElementById('join-inner').style.display = 'none';
+      document.getElementById('full-society').style.display = 'block';
+      document.getElementById('full-inner').style.display = 'block';
+    }
+    
+    // Update the rules text with current count
+    const rulesSection = document.querySelector('#the-rules');
+    if (rulesSection && data.spotsAvailable > 0) {
+      console.log(`${data.spotsAvailable} Founder's Rate spots remaining`);
+    }
+  } catch (error) {
+    console.error('Error checking member status:', error);
+    // On error, show buttons (fail open)
+  }
+}
+
+// Run on page load
+checkMemberStatus();
 
 async function checkout(tier) {
   try {

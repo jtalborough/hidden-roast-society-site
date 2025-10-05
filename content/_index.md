@@ -16,12 +16,6 @@ We're not trying to change the world. Just make better mornings for a few people
 
 A coffee club for people who care about what's in their cup. Every roast is small batch. Every bag is different. Every member gets coffee roasted fresh and shipped the next day.
 
-### What This Isn't
-
-- Mass produced
-- Available in stores
-- For everyone
-
 ---
 
 ## Membership, Not Transactions
@@ -44,7 +38,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <button class="join-button" onclick="joinSocietyMember()" id="join-society">Join Now</button>
 <div class="membership-full" id="full-society" style="display:none;">
-  <p>Membership Full - <a href="#waitlist">Join Waitlist</a></p>
+  <p>Membership Full<br><a href="#waitlist">Join Waitlist</a></p>
 </div>
 
 </div>
@@ -63,7 +57,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <button class="join-button" onclick="joinInnerCircle()" id="join-inner">Join Now</button>
 <div class="membership-full" id="full-inner" style="display:none;">
-  <p>Membership Full - <a href="#waitlist">Join Waitlist</a></p>
+  <p>Membership Full<br><a href="#waitlist">Join Waitlist</a></p>
 </div>
 
 </div>
@@ -74,7 +68,6 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 ## The Rules
 
-- Founder's Rate capped at 40 members total
 - New members only when someone leaves
 - Shipping is always included
 - Coffee is always shipped fresh

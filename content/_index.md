@@ -120,6 +120,9 @@ A: For Inner Circle only.
 **Q: Can I give as a gift?**  
 A: Memberships can be transferred once per year.
 
+**Q: How do I manage my subscription?**  
+A: [Manage your subscription here](/manage.html) - update payment, view invoices, or cancel.
+
 ---
 
 ## Join the Waitlist

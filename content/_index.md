@@ -114,8 +114,8 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 ## FAQ
 
-**Q: Why only 50 members?**  
-A: Because 51 would be too many.
+**Q: Why such a small membership?**  
+A: Because we roast by hand and want to know every member by name.
 
 **Q: Can I buy without membership?**  
 A: No.

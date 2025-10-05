@@ -42,6 +42,8 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <small>Public rate after Founders: $70/mo</small>
 
+<button class="join-button" onclick="joinSocietyMember()">Join Now</button>
+
 </div>
 
 <div class="tier featured">
@@ -55,6 +57,8 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 - Add-on bag: $22
 
 <small>Public rate after Founders: $95/mo</small>
+
+<button class="join-button" onclick="joinInnerCircle()">Join Now</button>
 
 </div>
 
@@ -309,4 +313,62 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Join Button */
+.join-button {
+  width: 100%;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  font-family: var(--font-sans);
+}
+
+.join-button:hover {
+  opacity: 0.8;
+}
 </style>
+
+<script>
+const PRICE_IDS = {
+  society_member: 'price_1SEyop7MFwf9QPLIP12nYIVO',
+  inner_circle: 'price_1SEyoP7MFwf9QPLIuj444yRu'
+};
+
+async function checkout(tier) {
+  try {
+    const response = await fetch('/stripe/create-checkout-session', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        priceId: PRICE_IDS[tier],
+        successUrl: window.location.origin + '/success?session_id={CHECKOUT_SESSION_ID}',
+        cancelUrl: window.location.origin + '/',
+        metadata: {
+          tier: tier,
+          source: 'website'
+        }
+      })
+    });
+
+    const { url } = await response.json();
+    window.location.href = url;
+  } catch (error) {
+    console.error('Error:', error);
+    alert('Something went wrong. Please try again.');
+  }
+}
+
+function joinSocietyMember() {
+  checkout('society_member');
+}
+
+function joinInnerCircle() {
+  checkout('inner_circle');
+}
+</script>

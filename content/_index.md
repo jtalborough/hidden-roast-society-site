@@ -8,11 +8,15 @@ draft: false
 
 ## Forget Stale Coffee. Get Fresh-Roasted Beans Delivered Monthly.
 
-Small batch. Hand-roasted. Never more than a week old.
+<p style="text-align: center;">Small batch. Hand-roasted. Never more than a week old.</p>
 
 ---
 
+<div style="text-align: center;">
+
 ## Why Small Batch Matters
+
+</div>
 
 **Big roasters:** Roast thousands of pounds. Sits in warehouses for months. Tastes like cardboard.
 
@@ -31,7 +35,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 <div class="tier">
 
 ### Society Member
-**$50 / month** — Founder's Rate (locked for life)
+**$50 / month** — Founder's Rate
 
 - 2 bags monthly (~13.5 oz each)
 - Shipping included
@@ -40,7 +44,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <small>Public rate after Founders: $70/mo</small>
 
-<button class="join-button" onclick="joinSocietyMember()" id="join-society">Lock in Founder's Rate</button>
+<button class="join-button" onclick="joinSocietyMember()" id="join-society">Join Now</button>
 <div class="membership-full" id="full-society" style="display:none;">
   <p>Membership Full<br><a href="#waitlist">Join Waitlist</a></p>
 </div>
@@ -50,7 +54,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 <div class="tier featured">
 
 ### Inner Circle
-**$75 / month** — Founder's Rate (locked for life)
+**$75 / month** — Founder's Rate
 
 - 3 bags monthly (~13.5 oz each)
 - Shipping included
@@ -59,7 +63,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <small>Public rate after Founders: $95/mo</small>
 
-<button class="join-button" onclick="joinInnerCircle()" id="join-inner">Lock in Founder's Rate</button>
+<button class="join-button" onclick="joinInnerCircle()" id="join-inner">Join Now</button>
 <div class="membership-full" id="full-inner" style="display:none;">
   <p>Membership Full<br><a href="#waitlist">Join Waitlist</a></p>
 </div>
@@ -75,7 +79,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 1. **Join** — Secure your Founder's Rate (limited spots)
 2. **We Roast** — Small batch, once a month
 3. **You Receive** — Fresh coffee at your door within 48 hours
-4. **Enjoy** — Or manage your subscription anytime
+4. **Enjoy** — Or [manage your subscription](/manage.html) anytime
 
 ### The Details
 
@@ -88,27 +92,12 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 ## Our Promise
 
-- All bags ship immediately following the roast
+- Coffee roasted this week, not last month
+- All bags ship within 48 hours of roasting
 - Forever small batch—we'll never scale beyond what we can roast with care
 - Constantly evolving—new origins, new roast profiles, always experimenting
 - Each bag numbered and dated
 - Each member known by name, not as a transaction
-
----
-
-## What We Believe
-
-**We believe:**
-- Coffee should be roasted this week, not last month
-- Small batches mean we can actually care about each one
-- The ritual matters as much as the caffeine
-- Good coffee and fair prices aren't mutually exclusive
-
-**We don't believe:**
-- Bigger is better
-- In scaling up and watering down quality
-- Coffee should taste the same every single time (where's the fun in that?)
-- You should settle for stale beans because they're "convenient"
 
 ---
 

@@ -6,15 +6,19 @@ draft: false
 
 # Hidden Roast Society
 
-## Small Batch Coffee. Roasted for Members Only.
+## Forget Stale Coffee. Get Fresh-Roasted Beans Delivered Monthly.
 
-We're not trying to change the world. Just make better mornings for a few people.
+Small batch. Hand-roasted. Never more than a week old.
 
 ---
 
-### What This Is
+## Why Small Batch Matters
 
-A coffee club for people who care about what's in their cup. Every roast is small batch. Every bag is different. Every member gets coffee roasted fresh and shipped the next day.
+**Big roasters:** Roast thousands of pounds. Sits in warehouses for months. Tastes like cardboard.
+
+**Us:** Roast small lots. Ships next day. You taste the difference.
+
+Every roast is unique. Every bag is numbered. Every member gets coffee roasted fresh and shipped within 48 hours.
 
 ---
 
@@ -36,7 +40,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <small>Public rate after Founders: $70/mo</small>
 
-<button class="join-button" onclick="joinSocietyMember()" id="join-society">Join Now</button>
+<button class="join-button" onclick="joinSocietyMember()" id="join-society">Lock in Founder's Rate</button>
 <div class="membership-full" id="full-society" style="display:none;">
   <p>Membership Full<br><a href="#waitlist">Join Waitlist</a></p>
 </div>
@@ -55,7 +59,7 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 <small>Public rate after Founders: $95/mo</small>
 
-<button class="join-button" onclick="joinInnerCircle()" id="join-inner">Join Now</button>
+<button class="join-button" onclick="joinInnerCircle()" id="join-inner">Lock in Founder's Rate</button>
 <div class="membership-full" id="full-inner" style="display:none;">
   <p>Membership Full<br><a href="#waitlist">Join Waitlist</a></p>
 </div>
@@ -66,13 +70,19 @@ You don't buy coffee from us. You join us. We ❤️ you with coffee.
 
 ---
 
-## The Rules
+## How It Works
 
-- New members only when someone leaves
-- Shipping is always included
-- Coffee is always shipped fresh
+1. **Join** — Secure your Founder's Rate (limited spots)
+2. **We Roast** — Small batch, once a month
+3. **You Receive** — Fresh coffee at your door within 48 hours
+4. **Enjoy** — Or manage your subscription anytime
+
+### The Details
+
+- New members only when spots open
+- Shipping always included
+- Each bag starts as 1 lb green coffee—you get the honest roasted weight (typically 13–14.5 oz)
 - Roasts happen once a month
-- Each bag starts as 1 lb green coffee—you get the honest roasted weight (typically 13 – 14.5 oz)
 
 ---
 
@@ -115,6 +125,12 @@ A: Always.
 
 **Q: Do you do custom roasts?**  
 A: For Inner Circle only.
+
+**Q: What kind of beans do you use?**  
+A: Single-origin, specialty grade. We source from small farms and rotate origins monthly.
+
+**Q: How fresh is "fresh"?**  
+A: Roasted and shipped within 48 hours. You'll receive it within a week of roasting.
 
 **Q: Can I give as a gift?**  
 A: Memberships can be transferred once per year.
